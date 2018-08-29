@@ -1,0 +1,13 @@
+{
+    "applications": [
+        {
+            "type": "sandbox",
+            "id": "unicorn-app",
+            "name": "Unicorn App",
+            "blurb": "This is a sandbox sample app",
+            "publisher": "Uni",
+            "url": "https://localhost:4000/controller.html",
+            "domain": "localhost"
+        }
+    ]
+}
