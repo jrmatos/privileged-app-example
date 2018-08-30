@@ -1,13 +1,17 @@
 {
     "applications": [
-        {
-            "type": "sandbox",
-            "id": "unicorn-app",
-            "name": "Unicorn App",
-            "blurb": "This is a sandbox sample app",
-            "publisher": "Uni",
-            "url": "https://localhost:4000/controller.html",
-            "domain": "localhost"
-        }
+      {
+        "type": "privileged",
+        "id": "unicorn-app",
+        "name": "Unicorn App",
+        "blurb": "Yaaaay!",
+        "publisher": "Unicorn Lab",
+        "icon": "https://image.flaticon.com/icons/png/128/76/76592.png",
+        "service": "UnicornMainService",
+        "javascript": [
+          "https://localhost:4000/main.bundle.js"
+        ],
+        "css": []
+      }
     ]
-}
+  }
