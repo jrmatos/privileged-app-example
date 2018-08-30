@@ -12,6 +12,19 @@
           "https://localhost:4000/main.bundle.js"
         ],
         "css": []
+      },
+      {
+        "type": "privileged",
+        "id": "unicorn-app2",
+        "name": "Unicorn App 2",
+        "blurb": "Yaaaay!2",
+        "publisher": "Unicorn Lab",
+        "icon": "https://image.flaticon.com/icons/png/128/76/76592.png",
+        "service": "UnicornMainService2",
+        "javascript": [
+          "https://localhost:4000/main2.bundle.js"
+        ],
+        "css": []
       }
     ]
   }

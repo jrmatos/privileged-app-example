@@ -3,6 +3,7 @@ var path = require("path");
 module.exports = {
     entry: {
         main: path.resolve(__dirname, "./src/javascript/main.js"),
+        main2: path.resolve(__dirname, "./src/javascript/main2.js")
     },
     output: {
         path: path.resolve(__dirname, "dist"),
